@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Notas importantes do HTML</title>
+  </head>
+  <body style="padding-bottom: 300px;"> <!--margem no rodapé-->
+
+    <h1>Título  importante</h1>
+    <h1>Título  h1</h1> <!-- Recomenda-se utilizar somente uma tag h1 por página-->
+    <h2>Título h2</h2>  <!-- Nada impede que h2 seja maior que h1, mas compromete a semântica-->
+    <p>Parágrafo do título h2</p>
+    <h3>Título h3</h3>
+    <p>Parágrafo do título h3</p>
+
+
+    <!-- os elementos dentro da tag body acima são elementos de bloco, esses elementos têm a largura total do elemento
+    pai da página -->
+    <a href="https://google.com">Acessar o Google</a>
+    <!--importante: Se não colocarmos 'http' no href, o atributo apenas incrementará a url atual, ficando:
+    http://127.0.0.1:5500/google.com resultando em erro-->
+
+    <!--elemento de transição <hr/>, quebra de linha estilizada-->
+    <hr/>
+
+
+    <a href="https://google.com" target="_blank">Acessar o Google em nova aba</a>
+    <!--a href é elemento inline, para quebrar a linha utilizamos <br/> ou outro elemento de bloco-->
+    <hr/>
+    <img src="img/nature.jpg" alt="Floresta À noite" /> <!--caminho relativo de imagem e acessibilidade alt-->
+        
+    <ul> <!--ol:ordered list; ul:unordered list; li: list item-->
+      <li>Pinheiros negros</li>
+      <li>Degradê celestial</li>
+      <li>Estrelas...</li>
+    </ul>
+
+    <table>
+      <tr>
+        <th>ID:</th>
+        <th>Nome:</th>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>-</td>
+      </tr>
+    </table>
+
+    <!--div é um container que delimita a área de seus componentes-->
+    <div>
+      <h3>Dentro da div</h3>
+      <a href="#">Sobre</a>
+    </div>
+
+  </body>
+
+</html>
