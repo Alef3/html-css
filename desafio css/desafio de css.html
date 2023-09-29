@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Id, classe e ordem dos seletores</title>
+</head>
+<body>
+
+  <h1 style="color: lightseagreen;">Id, classe e ordem dos seletores</h1>
+
+  <!-- IDs são usados em casos específicos, pois não podem se repetir -->
+  <h4 id="h4id">h4 com id</h4>
+
+
+  <!-- classes -->
+
+  <h4 class="h4classe">h4 com classe</h4>
+  <!-- se a classe não for encontrada h4 utilizará o mesmo estilo dos 2 primeiros-->
+
+  <h4>h4 sem id e classe</h4>
+
+  <!-- tag ter id e classe paralelamente é permitido-->
+  <h4 id="h4id" class="h4classe">com id e classe
+  <li>Quando há classe e id na mesma tag, o id é utilizado</li>
+  </h4>
+
+  <h3>h3 sem id e classe</h3>
+  <h3 id="h3id" class="h3class">h3 com id e classe</h3>
+  <h3 id="h3id">h3 com id</h3>
+  <h3>h3 sem id e classe</h3>
+  
+  
+
+  <!-- ordem dos seletores: id > classe > seletor de tag -->
+</body>
+</html>

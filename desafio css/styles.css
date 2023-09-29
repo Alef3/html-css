@@ -1,0 +1,38 @@
+h4 {
+  background-color: aqua;
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+ }
+
+.h4classe{
+  background-color: aquamarine;
+  color:blue;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+#h4id {
+  font-size: 30px;
+  color:blueviolet;
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+h3 {
+  background-color: chocolate;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.h3classe {
+  background-color: pink;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#h3id {
+  background-color: gray;
+  font-size: 20px;
+  padding: 5px;
+}
